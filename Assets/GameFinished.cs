@@ -6,7 +6,7 @@ public class GameFinished : MonoBehaviour
 {
 	[SerializeField]
 	Text
-		scoreBoard, message;
+		scoreBoard = null, message = null;
 
 	void Start ()
 	{

@@ -1,18 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\CaravanMapScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Events\TakeChance.cs">
     <Files>
-      <File FileName="Assets\Code\CaravanMapScript.cs" Line="45" Column="61" />
-      <File FileName="Assets\Startmenu.cs" Line="7" Column="40" />
-      <File FileName="Assets\Code\GameOver.cs" Line="1" Column="1" />
-      <File FileName="Assets\GameFinished.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Events\TakeChance.cs" Line="34" Column="105" />
+      <File FileName="Assets\Code\CaravanMapScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MapScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\Events\Town.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\Events\Bandit.cs" Line="22" Column="17" />
-      <File FileName="Assets\Code\Events.cs" Line="14" Column="13" />
-      <File FileName="Assets\CameraFollow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\Events\PauseMenu.cs" Line="9" Column="40" />
-      <File FileName="Assets\Code\Events\Riddle.cs" Line="6" Column="17" />
-      <File FileName="Assets\Code\Events\TakeChance2.cs" Line="11" Column="17" />
+      <File FileName="Assets\Code\Events\Bandit.cs" Line="1" Column="1" />
+      <File FileName="Assets\SplineWalker.cs" Line="59" Column="6" />
+      <File FileName="Assets\Code\Events\TakeChance_two_right.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

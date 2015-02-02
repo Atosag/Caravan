@@ -18,6 +18,7 @@ public class Events : MonoBehaviour {
 
 	public void continuePlaying(){
 		mapscript.continueAfterEvent();
+		GameUI.gameUI.UpdateStats();
 		Destroy(gameObject);
 	}
 
@@ -26,7 +27,7 @@ public class Events : MonoBehaviour {
 		caravan.setgoods (0);
 		GameOver.score = caravan.getmoney ();
 		GameOver.message = "You lost!\n" +
-			"You suck donkey dick!";
+			"What a shame!";
 		Application.LoadLevel ("Gameover");
 	}
 }

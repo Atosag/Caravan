@@ -10,10 +10,11 @@ public class PauseMenu : Events {
 	}
 
 	public void TravelOnward(){
+		mapscript.currentMap.PlayBackgroundMusic(true);
 		continuePlaying();
 	}
 
 	public void Quit(){
-		Application.Quit ();
+		Application.LoadLevel ("Startmenu");
 	}
 }

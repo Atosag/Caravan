@@ -13,14 +13,14 @@ public class Riddle : Events {
 	}
 
 	public void Wrong(){
-
+		caravan.stolenfrommoney(1);
+		FeedbackUI.feedbackUI.ShowText("You were wrong, you lost one money.");
 		continuePlaying();
 	}
 
 	public void Right(){
-
 		caravan.addmoney(5);
+		FeedbackUI.feedbackUI.ShowText(string.Format("You won {0} money", 5));
 		continuePlaying();
-
 	}
 }

@@ -35,6 +35,12 @@ public class BezierSpline : MonoBehaviour {
 		return points[index];
 	}
 
+	[ContextMenu("Invert")]
+	public void InvertSpline(){
+		Array.Reverse(points);
+		Debug.Log("Reversed");
+	}
+
 	public void SetControlPoint (int index, Vector3 point) {
 		if (index % 3 == 0) {
 			Vector3 delta = point - points[index];

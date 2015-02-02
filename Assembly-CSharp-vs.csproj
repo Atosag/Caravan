@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>I:/Programs/Programming/Unity3D/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>I:/Programs/Programming/Unity3D/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +66,7 @@
      <Compile Include="Assets\Code\Events\TakeChance1.cs" />
      <Compile Include="Assets\Code\Events\TakeChance2.cs" />
      <Compile Include="Assets\Code\Events\TakeChance3.cs" />
+     <Compile Include="Assets\Code\Events\TakeChance_two_right.cs" />
      <Compile Include="Assets\Code\Events\Town.cs" />
      <Compile Include="Assets\Code\GameOver.cs" />
      <Compile Include="Assets\Code\Guard.cs" />
@@ -74,15 +75,17 @@
      <Compile Include="Assets\Code\Weak_Enemy.cs" />
      <Compile Include="Assets\Code\Weak_Guard.cs" />
      <Compile Include="Assets\GameFinished.cs" />
-     <Compile Include="Assets\GameUI.cs" />
      <Compile Include="Assets\Line.cs" />
      <Compile Include="Assets\ListStuff.cs" />
+     <Compile Include="Assets\MapScript.cs" />
      <Compile Include="Assets\SplineDecorator.cs" />
      <Compile Include="Assets\SplineWalker.cs" />
      <Compile Include="Assets\SplineWalkerMode.cs" />
      <Compile Include="Assets\Startmenu.cs" />
+     <Compile Include="Assets\UI\FeedbackUI.cs" />
+     <Compile Include="Assets\UI\GameUI.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>I:/Programs/Programming/Unity3D/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
